@@ -1,0 +1,55 @@
+* {
+  font-family: "Merriweather", serif;
+}
+.main-info {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.bg-img {
+  margin-top: 4rem;
+  /* background-image: url("./img/reno2.webp"); */
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+}
+.img-title {
+  position: absolute;
+  top: 80px;
+  background-color: rgb(67, 66, 66);
+  color: white;
+  padding: 10px 30px;
+  opacity: 70%;
+}
+.info-title {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  align-items: center;
+}
+span {
+  margin-right: 10px;
+  font-weight: lighter;
+}
+.info-body {
+  background-color: #e9dd29;
+  padding: 30px;
+}
+.kiralamaform {
+  margin-top: 30px;
+  width: 50rem;
+}
+.kiralamaekranı {
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color: darkgrey;
+  padding: 50px;
+  border-radius: 189px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiraladınız</title>
+  </head>
+  <body>
+    <div class="contaier">
+      <h1>Başarılı bir şekilde kiraladınız.</h1>
+      <h3 id="ucret"></h3>
+    </div>
+    <script>
+      var urlParams = new URLSearchParams(window.location.search);
+      var pay = urlParams.get("pay");
+      var heading = document.querySelector("h3");
+      heading.innerHTML =
+        "Tebrikler, " + pay + "TL ye arabanızı kiraladınız. İyi sürüşler";
+    </script>
+  </body>
+</html>
